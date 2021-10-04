@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from './logo.png';
 import {
   Box,
   Flex,
@@ -477,12 +477,8 @@ function MyApp() {
           <Box w="45%" flexDir="column" h="100%"></Box>
         </Flex>
         <Box align="center">
-          <Image
-            alt="kombinations"
-            paddingLeft="110px"
-            boxSize="110px"
-          />
-        </Box>
+        <Image src={logo} className="App-logo" alt="logo" />
+            </Box>
       </Box>
     </Box>
   );
